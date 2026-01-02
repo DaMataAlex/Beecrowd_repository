@@ -2,12 +2,8 @@
 
 int main(){
 
-    float a;
-    float total = 1.0;
-
-    for(int i = 2; i < 101; i++){
-        total+= 1.0/i;
-    }
+    float a = 1.0;
+    float b = 1.0;
 
     printf("%.2f\n", total);
 
