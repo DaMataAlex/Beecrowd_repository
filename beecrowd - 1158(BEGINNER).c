@@ -12,18 +12,18 @@ int main(){
 
         scanf("%d %d", &starthere, &howmuchodds);
         
-        int i = 0;
-        while(i < howmuchodds){
+        int j = 0;
+        while(j < howmuchodds){
             if(starthere % 2 != 0){
                 sum += starthere;
-                i++;
+                j++;
             }
             starthere += 1;
         }
 
         printf("%d\n", sum);
         sum = 0;
-        i = 0;
+        j = 0;
     }
 
     return 0;
