@@ -42,5 +42,7 @@ int main() {
         printf("par[%d] = %d\n", i, par[i]);
     }
 
+    
+
     return 0;
 }
